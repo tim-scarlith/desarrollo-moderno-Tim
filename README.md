@@ -195,7 +195,7 @@ Es un protocolo estándar para autorización. Permite a las aplicaciones obtener
 ###### https://oauth.net/2/
 
 ###### Diagrama de flujo explicativo del proceso de autenticación con JWT.
-![Diagrama JWT](https://www.researchgate.net/figure/Flowchart-of-JWT-validation_fig1_326544528)
+![DiagramaJWT](./jwt.png)
 
 ###### Buenas practicas en seguridad WEB
 Validar y sanitizar entradas evita inyecciones SQL, XSS y otros ataques. Por otra parte otra buena practica es mantener actualizados de manera constante frameworks, librerías y dependencias al día. Tambien evitar exponer información sensible en el código como exponer constraseñas en ambientes publicos, como repositorios, y monitorear cualquier actividad sospechoza, son algunos consejos para mantener buenas practicas web.
@@ -403,4 +403,30 @@ jobs:
   Primeramente el usuario deberá crear una carpeta con los archivos que se requieren.
 De manera personal cree y arrastre los archivos al trabajar en un ambiente windows, como se ve en la siguiente imagen:
 
-![img 1](img 1.png)
+![img1](./img1.png)
+
+#### Inicializar Git y subir a GitHub
+El usuario debe verificar si cuenta con git instalado dentro de su máquina. En caso de no tenerlo deberá descargarlo y este se instalará de manera personalizada. 
+Enlace de descarga:  https://git-scm.com/download/win
+En caso de que no se cuente con un repositorio se debe inicializar uno de la siguiente manera abriendo una terminal en el archivo que va a ser nuestro repositorio.
+``` git init ```
+
+Seguidamente se guardarán los archivos que se encuentran previamente creados para que sean almacenados en el repositorio, esto con la siguiente directriz en la consola.
+
+``` git add . ```
+ 
+Por último, para esta sección se realizará un commit, colocando la siguiente directriz en consola:
+
+
+```git commit -m "Primer commit con index.html y README.md" ```
+#### Publicar con Netlify
+
+Primeramente la aplicación permite que sincronicemos nuestros proyectos con git y cuenta git con la cuenta Netlif, lo cual facilita el proceso de publicación de los documentos en Git Hub.
+El sitio tiene instrucciones claras y solo tienes que seguir los pasos aceptando todo. Al final de la configuración del sitio podremos acceder a la sección de deploys, en donde podremos visualizar nuestro proyecto.
+![img2](./img2.png)
+
+ Una vez ubicados en deploys se puede acceder a la parte de vista previa lo cual nos mostrará el contenido del README.md y nos entregará un enlace para que otros usuarios puedan acceder al sitio.
+ ![img3](./img3.png)
+
+ Vista previa
+ ![img4](./img4.png)
