@@ -396,3 +396,11 @@ jobs:
         run: |
           scp -r ./dist usuario@mi-servidor:/var/www/html
 ```
+### Tutorial de como realizar la configuración del ambiente para desplegar el documento Markdown
+
+#### Crear el proyecto local
+
+  Primeramente el usuario deberá crear una carpeta con los archivos que se requieren.
+De manera personal cree y arrastre los archivos al trabajar en un ambiente windows, como se ve en la siguiente imagen:
+
+![img 1](./img 1.png)
