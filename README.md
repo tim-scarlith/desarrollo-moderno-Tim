@@ -197,6 +197,8 @@ Es un protocolo estándar para autorización. Permite a las aplicaciones obtener
 ###### Diagrama de flujo explicativo del proceso de autenticación con JWT.
 ![DiagramaJWT](./jwt.png)
 
+###### https://www.researchgate.net/figure/Flowchart-of-JWT-validation_fig1_326544528
+
 ###### Buenas practicas en seguridad WEB
 Validar y sanitizar entradas evita inyecciones SQL, XSS y otros ataques. Por otra parte otra buena practica es mantener actualizados de manera constante frameworks, librerías y dependencias al día. Tambien evitar exponer información sensible en el código como exponer constraseñas en ambientes publicos, como repositorios, y monitorear cualquier actividad sospechoza, son algunos consejos para mantener buenas practicas web.
 
@@ -429,4 +431,5 @@ El sitio tiene instrucciones claras y solo tienes que seguir los pasos aceptando
  ![img3](./img3.png)
 
  Vista previa
+
  ![img4](./img4.png)
