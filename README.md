@@ -403,4 +403,4 @@ jobs:
   Primeramente el usuario deberá crear una carpeta con los archivos que se requieren.
 De manera personal cree y arrastre los archivos al trabajar en un ambiente windows, como se ve en la siguiente imagen:
 
-![img 1](./img 1.png)
+![img 1](img 1.png)
